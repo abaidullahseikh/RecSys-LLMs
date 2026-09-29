@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Filtering Movie Recommender</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Collaborative Filtering</h1>
+        <p>Select a user and an unseen movie to compare predicted ratings.</p>
+        <p id="app-status" role="status" aria-live="polite">Loading data…</p>
+        <section id="movie-prediction" aria-labelledby="prediction-heading" aria-busy="false">
+            <h2 id="prediction-heading">Predict a Movie Rating</h2>
+            <div class="controls prediction-controls">
+                <div>
+                    <label for="user-select">Select User</label>
+                    <select id="user-select" onchange="populateMovieDropdown()" disabled>
+                        <option value="" disabled selected>Select a user</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="movie-select">Select Movie</label>
+                    <select id="movie-select" onchange="resetMoviePrediction(); updatePredictionControls()" disabled>
+                        <option value="">Select a user first</option>
+                    </select>
+                </div>
+            </div>
+            <button id="predict-rating-btn" onclick="predictSelectedMovie()" disabled>Predict Rating</button>
+            <p id="prediction-status" role="status" aria-live="polite">Select a user first.</p>
+            <div class="prediction-results" aria-live="polite">
+                <div class="prediction-column">
+                    <h3>User Based CF Prediction</h3>
+                    <p id="user-based-prediction" class="prediction-value">—</p>
+                    <p id="user-based-prediction-note" class="prediction-note"></p>
+                </div>
+                <div class="prediction-column">
+                    <h3>Item Based CF Prediction</h3>
+                    <p id="item-based-prediction" class="prediction-value">—</p>
+                    <p id="item-based-prediction-note" class="prediction-note"></p>
+                </div>
+            </div>
+            <p class="prediction-policy">Displayed to one decimal place. Predictions are not clipped to 1–5.</p>
+        </section>
+        <details id="top5-section">
+            <summary>Top-5 recommendations</summary>
+            <div class="controls">
+                <button id="recommend-btn" onclick="getRecommendations()" disabled>Get Recommendations</button>
+            </div>
+            <div id="result-box" aria-busy="false">
+                <div class="result-column">
+                    <h2>User-Based CF</h2>
+                    <div id="user-based-result"><p>Loading data…</p></div>
+                </div>
+                <div class="result-column">
+                    <h2>Item-Based CF</h2>
+                    <div id="item-based-result"><p>Loading data…</p></div>
+                </div>
+            </div>
+        </details>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
