@@ -1,5 +1,0 @@
-# HW6 final submission staging
-
-These files are staged separately from the historical root exports. `results.csv` is the verified four-method test comparison with the corrected HW5 MF reproduction (selected epoch 19). `recommendations.csv` contains the three unchanged HW6 method lists, the three controlled PPR demonstration settings, and the corrected-HW5 MF lists for fixed users 1 and 2. The old supplied-HW6-reference MF rows are omitted from this submission copy; the original root files remain unchanged.
-
-The reproduction is a new corrected-HW5 run because the original selected Week 5 checkpoint was unavailable; numerical identity with that original model is not claimed, and no instructor approval is documented. See `../README_hw5_mf_reproduction.md` and archived provenance/evidence for details. This staging directory intentionally does not contain the report PDF or an AI-session export. Confirm the current course requirements and submission location with the instructor before submitting.

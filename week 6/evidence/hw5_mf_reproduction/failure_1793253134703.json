@@ -1,5 +1,0 @@
-{
-  "stage": "starting",
-  "done": true,
-  "error": "Error: Dataset not loaded\n    at assert (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:6:58)\n    at Object.run (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:184:5)\n    at <anonymous>:6:53"
-}
