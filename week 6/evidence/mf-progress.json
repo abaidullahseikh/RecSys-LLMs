@@ -1,0 +1,381 @@
+{
+  "job": {
+    "done": true,
+    "error": null,
+    "result": {
+      "startedAt": "2026-10-20T17:05:34.020Z",
+      "completedAt": "2026-10-20T17:16:33.994Z",
+      "runtimeMs": 659973.1000000006,
+      "backend": "webgl",
+      "info": {
+        "factors": 16,
+        "epochs": 30,
+        "learningRate": 0.01,
+        "regularization": 0.05,
+        "batchSize": 512,
+        "seed": 20261013,
+        "backend": "webgl",
+        "checkpoint": 1,
+        "validationRMSE": 1.1829944264078285,
+        "trainedAt": "2026-10-20T17:16:33.968Z",
+        "history": [
+          {
+            "epoch": 1,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 2,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 3,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 4,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 5,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 6,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 7,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 8,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 9,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 10,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 11,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 12,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 13,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 14,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 15,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 16,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 17,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 18,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 19,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 20,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 21,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 22,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 23,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 24,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 25,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 26,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 27,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 28,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 29,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          },
+          {
+            "epoch": 30,
+            "trainRMSE": 1.1052078640164102,
+            "valRMSE": 1.1829944264078285
+          }
+        ]
+      },
+      "modelType": "dot product plus training global mean, no user/item biases",
+      "optimizer": "Adam",
+      "objective": "batch MSE + 0.05 * (sum(all user factors squared) + sum(all movie factors squared))",
+      "initialization": "Mulberry32 seed 20261013; Box-Muller normal * 0.05; seeded shuffled batches",
+      "trainedOn": "training records only",
+      "restoredValidationRMSE": 1.1829944264078285,
+      "globalMean": 3.5806026199776437,
+      "userFactorNorm": {
+        "l2Norm": 0.0011185215782262216,
+        "maxAbs": 4.679810081142932e-05
+      },
+      "movieFactorNorm": {
+        "l2Norm": 0.0014878750107215183,
+        "maxAbs": 5.5047599744284526e-05
+      },
+      "frozenModelHash": {
+        "users": "4301e20460431bb07c1b33d6729860255a9c7e39b3484082d6753a43b8fcbc82",
+        "movies": "004e098e71ec8ae2c0cd564d643fe6ecd6f939e0d58daa7c60d2a440977cbd3b",
+        "globalMean": 3.5806026199776437
+      },
+      "memoryBefore": {
+        "unreliable": false,
+        "numBytesInGPU": 0,
+        "numBytesInGPUAllocated": 48144080,
+        "numBytesInGPUFree": 48144080,
+        "numTensors": 0,
+        "numDataBuffers": 0,
+        "numBytes": 0,
+        "jsHeapUsed": 90448333
+      },
+      "memoryAfter": {
+        "unreliable": false,
+        "numBytesInGPU": 672640,
+        "numBytesInGPUAllocated": 91547468,
+        "numBytesInGPUFree": 90874828,
+        "numTensors": 10,
+        "numDataBuffers": 10,
+        "numBytes": 672520,
+        "jsHeapUsed": 119184504
+      }
+    }
+  },
+  "info": {
+    "factors": 16,
+    "epochs": 30,
+    "learningRate": 0.01,
+    "regularization": 0.05,
+    "batchSize": 512,
+    "seed": 20261013,
+    "backend": "webgl",
+    "checkpoint": 1,
+    "validationRMSE": 1.1829944264078285,
+    "trainedAt": "2026-10-20T17:16:33.968Z",
+    "history": [
+      {
+        "epoch": 1,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 2,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 3,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 4,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 5,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 6,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 7,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 8,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 9,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 10,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 11,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 12,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 13,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 14,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 15,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 16,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 17,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 18,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 19,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 20,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 21,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 22,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 23,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 24,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 25,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 26,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 27,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 28,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 29,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      },
+      {
+        "epoch": 30,
+        "trainRMSE": 1.1052078640164102,
+        "valRMSE": 1.1829944264078285
+      }
+    ]
+  },
+  "status": "MF reference trained: 16 factors, checkpoint epoch 1, validation RMSE 1.1830."
+}

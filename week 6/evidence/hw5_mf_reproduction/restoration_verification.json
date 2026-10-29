@@ -1,0 +1,17 @@
+{
+  "exactFactorEquality": true,
+  "float32Hashes": {
+    "users": "c53bb73fa791b75fa6e67e35d2ea76f6dfbad3d6cd1e91eaa574b73b62edace5",
+    "movies": "e0565ca71275c498bb580cabb402d481ff8d100987796818a0d9b26f44a08011",
+    "globalMean": 3.5806026199776437
+  },
+  "clippedPredictionPairs": 40,
+  "rawPredictionPairs": 3366,
+  "exactPredictionEquality": true,
+  "validationRMSE": 1.0583308833136447,
+  "restoredFrom": {
+    "path": "evidence/hw5_mf_reproduction/model_weights.json",
+    "sha256": "ac0bd31f9c1a4a73f29630758769608adcb980ca7c8ba449511ad2ee57682a1c",
+    "bytes": 1053845
+  }
+}

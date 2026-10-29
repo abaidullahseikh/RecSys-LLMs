@@ -1,0 +1,97 @@
+[
+  {
+    "method": "popularity",
+    "users": [
+      {
+        "userId": 1,
+        "relevant": 19,
+        "hit": 2,
+        "hitIds": [
+          100,
+          258
+        ],
+        "recall": 0.10526315789473684
+      },
+      {
+        "userId": 2,
+        "relevant": 2,
+        "hit": 0,
+        "hitIds": [],
+        "recall": 0
+      }
+    ]
+  },
+  {
+    "method": "pagerank",
+    "users": [
+      {
+        "userId": 1,
+        "relevant": 19,
+        "hit": 3,
+        "hitIds": [
+          258,
+          100,
+          222
+        ],
+        "recall": 0.15789473684210525
+      },
+      {
+        "userId": 2,
+        "relevant": 2,
+        "hit": 0,
+        "hitIds": [],
+        "recall": 0
+      }
+    ]
+  },
+  {
+    "method": "ppr",
+    "users": [
+      {
+        "userId": 1,
+        "relevant": 19,
+        "hit": 3,
+        "hitIds": [
+          100,
+          258,
+          222
+        ],
+        "recall": 0.15789473684210525
+      },
+      {
+        "userId": 2,
+        "relevant": 2,
+        "hit": 0,
+        "hitIds": [],
+        "recall": 0
+      }
+    ]
+  },
+  {
+    "method": "mf",
+    "users": [
+      {
+        "userId": 1,
+        "relevant": 19,
+        "hit": 7,
+        "hitIds": [
+          6,
+          18,
+          20,
+          32,
+          100,
+          111,
+          129
+        ],
+        "recall": 0.3684210526315789
+      },
+      {
+        "userId": 2,
+        "relevant": 2,
+        "hit": 0,
+        "hitIds": [],
+        "recall": 0
+      }
+    ]
+  }
+]

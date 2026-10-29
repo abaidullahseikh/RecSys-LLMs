@@ -1,0 +1,21 @@
+user_id,method,model_label,alpha,selected_mf_epoch,rank,movie_id,title,genres,score,score_definition,training_popularity,mean_list_popularity,split,evidence_origin
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,1,1282,"Grass Harp, The (1995)",Drama,5.812113285064697,raw mean-plus-dot rating-scale ranking score (unclipped),3,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,2,408,"Close Shave, A (1995)",Animation;Comedy;Thriller,5.617801666259766,raw mean-plus-dot rating-scale ranking score (unclipped),85,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,3,647,Ran (1985),Drama;War,5.568919658660889,raw mean-plus-dot rating-scale ranking score (unclipped),51,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,4,1529,Underground (1995),War,5.541051864624023,raw mean-plus-dot rating-scale ranking score (unclipped),1,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,5,285,Secrets & Lies (1996),Drama,5.491750717163086,raw mean-plus-dot rating-scale ranking score (unclipped),121,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,6,1450,Golden Earrings (1947),Adventure;Romance,5.42120361328125,raw mean-plus-dot rating-scale ranking score (unclipped),1,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,7,524,"Great Dictator, The (1940)",Comedy,5.40630578994751,raw mean-plus-dot rating-scale ranking score (unclipped),30,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,8,909,Dangerous Beauty (1998),Drama,5.347934722900391,raw mean-plus-dot rating-scale ranking score (unclipped),2,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,9,511,Lawrence of Arabia (1962),Adventure;War,5.295223712921143,raw mean-plus-dot rating-scale ranking score (unclipped),134,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,10,1466,Margaret's Museum (1995),Drama,5.27718448638916,raw mean-plus-dot rating-scale ranking score (unclipped),2,43,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,1,958,To Live (Huozhe) (1994),Drama,5.169346332550049,raw mean-plus-dot rating-scale ranking score (unclipped),6,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,2,169,"Wrong Trousers, The (1993)",Animation;Comedy,4.981135845184326,raw mean-plus-dot rating-scale ranking score (unclipped),90,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,3,557,Farinelli: il castrato (1994),Drama;Musical,4.968425273895264,raw mean-plus-dot rating-scale ranking score (unclipped),3,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,4,1193,Before the Rain (Pred dozhdot) (1994),Drama,4.929168224334717,raw mean-plus-dot rating-scale ranking score (unclipped),7,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,5,1449,Pather Panchali (1955),Drama,4.926537036895752,raw mean-plus-dot rating-scale ranking score (unclipped),7,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,6,693,Casino (1995),Drama,4.851914405822754,raw mean-plus-dot rating-scale ranking score (unclipped),43,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,7,208,Young Frankenstein (1974),Comedy;Horror,4.847277641296387,raw mean-plus-dot rating-scale ranking score (unclipped),124,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,8,488,Sunset Blvd. (1950),Film-Noir,4.834878921508789,raw mean-plus-dot rating-scale ranking score (unclipped),43,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,9,654,Chinatown (1974),Film-Noir;Mystery;Thriller,4.825249671936035,raw mean-plus-dot rating-scale ranking score (unclipped),97,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,10,213,"Room with a View, A (1986)",Drama;Romance,4.7925944328308105,raw mean-plus-dot rating-scale ranking score (unclipped),79,49.9,test,new reproduction
