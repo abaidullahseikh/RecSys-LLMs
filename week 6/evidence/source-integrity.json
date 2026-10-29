@@ -1,0 +1,60 @@
+{
+  "preserved_files": {
+    "data.js": {
+      "expected": "eb33f8441f652938cce07e7fc7fe1e36f38acd0b296234074ac90d367e2678cd",
+      "actual": "eb33f8441f652938cce07e7fc7fe1e36f38acd0b296234074ac90d367e2678cd"
+    },
+    "index.html": {
+      "expected": "3a9317bf06f9ef3fee8da60000b1f96182eaf87d947b54c436bb1ceb73f92db1",
+      "actual": "3a9317bf06f9ef3fee8da60000b1f96182eaf87d947b54c436bb1ceb73f92db1"
+    },
+    "style.css": {
+      "expected": "ea006b0f213cdd988916c9fea5f4789d89c7348c5627eaad2ef64b899729986b",
+      "actual": "ea006b0f213cdd988916c9fea5f4789d89c7348c5627eaad2ef64b899729986b"
+    },
+    "readme.md": {
+      "expected": "56f2b68e111cad2fed437cf9d375b54722d165bf4446b41138cfc0f59866c486",
+      "actual": "56f2b68e111cad2fed437cf9d375b54722d165bf4446b41138cfc0f59866c486"
+    },
+    "u.data": {
+      "expected": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+      "actual": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490"
+    },
+    "u.item": {
+      "expected": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701",
+      "actual": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701"
+    },
+    "vendor/d3.min.js": {
+      "expected": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539",
+      "actual": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    }
+  },
+  "week5_data_continuity": {
+    "data.js": true,
+    "u.data": true,
+    "u.item": true
+  },
+  "source_sha256": {
+    "graph.js": "03d83e576c873c1932adecde281e4e953fb885ba115f99df048444439a483e6d",
+    "README.md": "57c97085ea57a52ac6c0cc663f53ee88880daedcdfc0747c0cd284c96c5bb262",
+    "experiment.js": "49d4a9c60f5ad79315cc0c52b3c2b24a578b556331f93e983ab9b77aeadc15a7",
+    "script.js": "edcaf385714f03ebdd11cb9413740e33759aeb7de182e2476340cc6b9dbf990c",
+    "run_experiment.py": "e35a2b27b3c32fb9b64ac1f8cfcf7306d18f61aff124a302e0c63c28202d426c",
+    "readme.md": "56f2b68e111cad2fed437cf9d375b54722d165bf4446b41138cfc0f59866c486",
+    "audit_sources.py": "b2abba980682c7f10274295462fd98814f4c170cf0d9e78bea71b6184dd2b58e",
+    "data.js": "eb33f8441f652938cce07e7fc7fe1e36f38acd0b296234074ac90d367e2678cd",
+    "export_evidence.py": "912480b7d6110cdc7dba606d5462987041c2970fa527fc5cf1ad205bcdc5af01"
+  },
+  "week5_script_sha256": "1475668aec8c1b008b8b9c6c0b3302f16e9c7bca326e32ea5a0cd7a11e8d51e1",
+  "mf_continuity_limitation": {
+    "week5_actual_implementation": "Batch-average L2 on gathered rows, script.js:513; unseeded tf.randomNormal; ordered batches.",
+    "week6_provided_reference": "Whole-matrix L2 per batch, script.js:953; seeded normal initialization and shuffled batches.",
+    "previous_selected_factor_checkpoint_available": false,
+    "comparison_label": "HW6 supplied MF reference, not a reproduced HW5 selected checkpoint"
+  },
+  "authorized_adapter_corrections": [
+    "hw6AdapterPPR primary attempt passes seedNode, not rawUserId.",
+    "hw6UserNodeIndex returns -1 when mappings and userIds do not contain the raw ID."
+  ],
+  "propagation_optimization": "Student helper only: WASM sparseSegmentSum, unchanged restart/update/tolerance/cap, copied plain-array memoization by graph/backend/alpha/tolerance/cap/seed."
+}

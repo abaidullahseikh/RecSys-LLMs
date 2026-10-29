@@ -1,0 +1,17 @@
+{
+  "failed_check": "Actual training updates match independent batch-row-L2 Adam calculation and replay",
+  "observed_max_absolute_update_error": 0.000042478061505479836,
+  "original_reference_assumption": "Adam epsilon 1e-7",
+  "measured_tfjs_webgl_optimizer_configuration": {
+    "learningRate": 0.01,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 0.0001
+  },
+  "diagnosis": "The independent reference assumed a different epsilon from the actual backend default. The copied HW5 algorithm correctly calls tf.train.adam(lr) with backend defaults.",
+  "correction": "Read getConfig() from an identically configured disposable optimizer and use its actual epsilon in the independent Adam calculation.",
+  "tolerance_changed": false,
+  "training_implementation_changed": false,
+  "real_model_training_started_before_correction": false,
+  "rerun_result_location": "pretraining_verification.json"
+}

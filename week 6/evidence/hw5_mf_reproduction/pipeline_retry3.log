@@ -1,0 +1,70 @@
+{"stage": "starting", "done": false, "error": null}
+{"stage": "verification", "done": false, "error": null}
+{"stage": "training", "done": false, "error": null, "epoch": 1, "validationRMSE": 1.1140216707556492}
+{"stage": "training", "done": false, "error": null, "epoch": 2, "validationRMSE": 1.1087424395624925}
+{"stage": "training", "done": false, "error": null, "epoch": 3, "validationRMSE": 1.0752405474135758}
+{"stage": "training", "done": false, "error": null, "epoch": 4, "validationRMSE": 1.0752459799100027}
+{"stage": "training", "done": false, "error": null, "epoch": 5, "validationRMSE": 1.0748861008563408}
+{"stage": "training", "done": false, "error": null, "epoch": 6, "validationRMSE": 1.0926386500353567}
+{"stage": "training", "done": false, "error": null, "epoch": 7, "validationRMSE": 1.0782686220785862}
+{"stage": "training", "done": false, "error": null, "epoch": 8, "validationRMSE": 1.0917333267088298}
+{"stage": "training", "done": false, "error": null, "epoch": 9, "validationRMSE": 1.073403399285353}
+{"stage": "training", "done": false, "error": null, "epoch": 10, "validationRMSE": 1.0886664919793696}
+{"stage": "training", "done": false, "error": null, "epoch": 11, "validationRMSE": 1.069225566864024}
+{"stage": "training", "done": false, "error": null, "epoch": 12, "validationRMSE": 1.0861676198715078}
+{"stage": "training", "done": false, "error": null, "epoch": 13, "validationRMSE": 1.0665599446750882}
+{"stage": "training", "done": false, "error": null, "epoch": 14, "validationRMSE": 1.0775929119296128}
+{"stage": "training", "done": false, "error": null, "epoch": 15, "validationRMSE": 1.0643039423843652}
+{"stage": "training", "done": false, "error": null, "epoch": 16, "validationRMSE": 1.0715378478499955}
+{"stage": "training", "done": false, "error": null, "epoch": 17, "validationRMSE": 1.0629672537718402}
+{"stage": "training", "done": false, "error": null, "epoch": 18, "validationRMSE": 1.0681168247756017}
+{"stage": "training", "done": false, "error": null, "epoch": 19, "validationRMSE": 1.0583308833136447}
+{"stage": "evaluation", "done": false, "error": null, "epoch": 20, "validationRMSE": 1.0656543358487234}
+{"stage": "complete", "done": true, "error": null, "epoch": 20, "validationRMSE": 1.0656543358487234, "result": {"label": "Corrected HW5 MF reproduction", "limitation": "The original HW5 selected epoch-19 checkpoint weights were unavailable. A new model was trained using the corrected HW5 MF implementation and selected by validation RMSE. This reproduction is not asserted to be numerically identical to the original HW5 model.", "selectedEpoch": 19, "validationRMSE": 1.0583308833136447, "testRMSE": 1.1076641053319294, "independentTestRMSE": 1.107664191273432, "validationRecall": 0.005777548699711074, "testRecall": 0.008868582471334867, "sharedTestUsers": 861, "candidateCount": 1611, "meanPopularity": 22.377119628339155, "overlap": {"commonMovieIds": [], "count": 0}, "trainingRuntimeMs": 1337932.6999999993, "originalSelfChecks": {"passed": 12, "failed": 0, "pending": 0}}}
+{
+  "label": "Corrected HW5 MF reproduction",
+  "limitation": "The original HW5 selected epoch-19 checkpoint weights were unavailable. A new model was trained using the corrected HW5 MF implementation and selected by validation RMSE. This reproduction is not asserted to be numerically identical to the original HW5 model.",
+  "selectedEpoch": 19,
+  "validationRMSE": 1.0583308833136447,
+  "testRMSE": 1.1076641053319294,
+  "independentTestRMSE": 1.107664191273432,
+  "validationRecall": 0.005777548699711074,
+  "testRecall": 0.008868582471334867,
+  "sharedTestUsers": 861,
+  "candidateCount": 1611,
+  "meanPopularity": 22.377119628339155,
+  "overlap": {
+    "commonMovieIds": [],
+    "count": 0
+  },
+  "trainingRuntimeMs": 1337932.6999999993,
+  "originalSelfChecks": {
+    "passed": 12,
+    "failed": 0,
+    "pending": 0
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "independent_saved_list_checks": 1707,
+    "max_saved_score_error_against_double_precision_factors": 8.202704719906251e-07,
+    "model_hashes_verified": true,
+    "source_parity_verified": true,
+    "shared_cohort_ids_identical": true,
+    "shared_test_users": 861,
+    "results_rows": 2,
+    "four_method_rows": 4,
+    "new_mf_recommendation_rows": 20,
+    "combined_two_user_rows": 80,
+    "csv_roundtrip_passed": true,
+    "original_hw6_tests": {
+      "passed": 12,
+      "failed": 0,
+      "pending": 0
+    },
+    "existing_files_checked": 55,
+    "changed_existing_files": [],
+    "hw5_unchanged": true,
+    "original_hw6_sources_and_evidence_unchanged": true,
+    "both_original_session_exports_unchanged": true
+  }
+}

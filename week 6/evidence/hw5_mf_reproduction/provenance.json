@@ -1,0 +1,107 @@
+{
+  "label": "Corrected HW5 MF reproduction",
+  "function_parity": {
+    "isTfModel": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "ca99927770203af483c66a4cd873d498e5fa273c7293c5a513550327c24dd927",
+      "adaptation": "none"
+    },
+    "clamp": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "f339ccf4f07ca26a5befa1267eb1ecf78f054da9e339e0c050e1083654e62387",
+      "adaptation": "none"
+    },
+    "predictRating": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "7885ce4e50593ee3cecb1ccbcf91fe4bd72fae75037e9058bcca7552c8c3ac24",
+      "adaptation": "none"
+    },
+    "initializeFactors": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "b9006763c667726defd04c610c3f44ffeb6f2142a9fce5a52a7d5845bad96d89",
+      "adaptation": "none"
+    },
+    "computeRMSEFor": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "103173b1bac6bd6dd40e37e572d9a7515ade81233ece9f75f8d8dd30f614b17d",
+      "adaptation": "none"
+    },
+    "selectBestCheckpoint": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "a4dda959dc701ec3d2b6a009b1868378cf617da8c92f79efe239da89e5f7f431",
+      "adaptation": "none"
+    },
+    "trainMF": {
+      "matches_ignoring_indentation": true,
+      "original_sha256": "cc9cff3e6a0f9fa5745f1df824cfd0b328e344c06bc3dd3582584acdb7924747",
+      "adaptation": "async epoch observer only"
+    }
+  },
+  "hw5_script_sha256": "1475668aec8c1b008b8b9c6c0b3302f16e9c7bca326e32ea5a0cd7a11e8d51e1",
+  "hw5_session_sha256": "99e4a3d6b70fc17ab24b22d26c436930b872044f0789982c3b1b596ef9a94bc8",
+  "hw6_session_sha256": "4559eb75d0fe6713f0acd6028c576ef62090a56879075c03237672dc4b812821",
+  "historical_source_message": "msg_13252f69f001qBB6U9IqaJu5AS",
+  "historical_hw5": {
+    "defaults": {
+      "epochs": 20,
+      "lr": 0.01,
+      "reg": 0.05,
+      "batchSize": 64
+    },
+    "selected": {
+      "epoch": 19,
+      "trainRMSE": 0.7691408512857162,
+      "valRMSE": 1.0714447826339824
+    },
+    "activeValidationRMSE": 1.0714447826339824,
+    "testRMSE": 1.1164852682970523,
+    "recall": {
+      "overall": 0.005005283353211099,
+      "evaluable": 861,
+      "unseenIds": [
+        913,
+        1106,
+        1130,
+        1458,
+        1498,
+        1525,
+        1613,
+        1625,
+        1645,
+        1646,
+        1650,
+        1651,
+        1674
+      ],
+      "usersWithoutRelevantCount": 82,
+      "repeatExactlyMatches": true
+    },
+    "factorNorms": {
+      "user": {
+        "frobenius": 51.50497892594243,
+        "squareSum": 2652.7628541617737,
+        "maxAbs": 2.3129942417144775
+      },
+      "item": {
+        "frobenius": 66.33984667767801,
+        "squareSum": 4400.975257217827,
+        "maxAbs": 2.2749273777008057
+      }
+    }
+  },
+  "dataset_hashes": {
+    "u.data": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+    "u.item": "553841ebc7de3a0fd0d6b62a204ea30c1e651aacfb2814c7a6584ac52f2c5701",
+    "data.js": "eb33f8441f652938cce07e7fc7fe1e36f38acd0b296234074ac90d367e2678cd"
+  },
+  "original_weights_recovered": false,
+  "host": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43",
+  "compatibility_changes": [
+    "Namespace isolation",
+    "Async epoch progress observer; unchanged updates and batch order",
+    "HW6 training-only candidates, split filtering and explicit movie-ID ties",
+    "Serialization/restoration plus initialization archival"
+  ],
+  "score_definition": "Original HW5 raw mean-plus-dot recommendation score; rating prediction and RMSE clipped to [1,5]",
+  "initialization_policy": "Preserve unseeded tf.randomNormal; archive the actual initialization for replay; no claim of original HW5 weights"
+}

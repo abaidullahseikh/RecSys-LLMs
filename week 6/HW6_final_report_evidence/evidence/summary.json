@@ -1,0 +1,618 @@
+{
+  "selectedAlpha": 0.5,
+  "mf": {
+    "checkpoint": 1,
+    "valRMSE": 1.1829944264078285,
+    "runtimeMs": 659973.1000000006
+  },
+  "test": {
+    "rows": [
+      {
+        "method": "popularity",
+        "split": "test",
+        "alpha": null,
+        "recall": 0.07602291343770759,
+        "cohortSize": 861,
+        "excludedUnseen": 13,
+        "excludedNoEligible": 82,
+        "meanPopularity": 271.99686411149816,
+        "iterations": null,
+        "residual": null,
+        "converged": null,
+        "error": null,
+        "note": null
+      },
+      {
+        "method": "pagerank",
+        "split": "test",
+        "alpha": 0.5,
+        "recall": 0.07969324149418144,
+        "cohortSize": 861,
+        "excludedUnseen": 13,
+        "excludedNoEligible": 82,
+        "meanPopularity": 257.820325203252,
+        "iterations": 19,
+        "residual": 5.372712621465325e-07,
+        "converged": true,
+        "error": null,
+        "note": null
+      },
+      {
+        "method": "ppr",
+        "split": "test",
+        "alpha": 0.5,
+        "recall": 0.11218853219486066,
+        "cohortSize": 861,
+        "excludedUnseen": 13,
+        "excludedNoEligible": 82,
+        "meanPopularity": 244.20673635307733,
+        "iterations": 22,
+        "residual": 5.181345841265284e-07,
+        "converged": true,
+        "error": null,
+        "note": null
+      },
+      {
+        "method": "mf",
+        "split": "test",
+        "alpha": null,
+        "recall": 0.021137488852036153,
+        "cohortSize": 861,
+        "excludedUnseen": 13,
+        "excludedNoEligible": 82,
+        "meanPopularity": 96.76085946573689,
+        "iterations": null,
+        "residual": null,
+        "converged": null,
+        "error": null,
+        "note": null
+      }
+    ],
+    "runtimeMs": 39221.90000000037,
+    "totalRuntimeMs": 47604.700000000186,
+    "memoryBefore": {
+      "unreliable": false,
+      "numTensors": 10,
+      "numDataBuffers": 10,
+      "numBytes": 672520,
+      "jsHeapUsed": 45819486
+    },
+    "memoryAfter": {
+      "unreliable": false,
+      "numTensors": 10,
+      "numDataBuffers": 10,
+      "numBytes": 672520,
+      "jsHeapUsed": 110621182
+    }
+  },
+  "scoreRanges": [
+    {
+      "method": "popularity",
+      "min": 0,
+      "max": 449,
+      "nonconverged": 0,
+      "shortLists": 0,
+      "zeroScoreLists": 0
+    },
+    {
+      "method": "pagerank",
+      "min": 0.00020601566939149052,
+      "max": 0.0025954516604542732,
+      "nonconverged": 0,
+      "shortLists": 0,
+      "zeroScoreLists": 0
+    },
+    {
+      "method": "ppr",
+      "min": 0,
+      "max": 0.08523502200841904,
+      "nonconverged": 0,
+      "shortLists": 0,
+      "zeroScoreLists": 0
+    },
+    {
+      "method": "mf",
+      "min": 3.5806026458740234,
+      "max": 3.5806026458740234,
+      "nonconverged": 0,
+      "shortLists": 0,
+      "zeroScoreLists": 0
+    }
+  ],
+  "histories": [
+    {
+      "userId": 1,
+      "node": 0,
+      "trainingRatings": 217,
+      "positiveTrainingRatings": 131,
+      "positiveGenreCounts": {
+        "Comedy": 39,
+        "Action": 36,
+        "Adventure": 15,
+        "Drama": 61,
+        "Romance": 22,
+        "Sci-Fi": 27,
+        "War": 13,
+        "Crime": 11,
+        "Thriller": 25,
+        "Animation": 4,
+        "Children's": 5,
+        "Mystery": 3,
+        "Horror": 6,
+        "Musical": 5,
+        "Film-Noir": 1,
+        "Documentary": 3,
+        "Western": 2,
+        "Fantasy": 1
+      },
+      "eligibleRelevantTestCount": 19,
+      "eligibleRelevantTestIds": [
+        6,
+        18,
+        20,
+        32,
+        100,
+        111,
+        129,
+        154,
+        169,
+        171,
+        178,
+        209,
+        221,
+        222,
+        228,
+        242,
+        256,
+        258,
+        270
+      ],
+      "examples": [
+        {
+          "userId": 1,
+          "movieId": 168,
+          "rating": 5,
+          "timestamp": 874965478,
+          "title": "Monty Python and the Holy Grail (1974)",
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 172,
+          "rating": 5,
+          "timestamp": 874965478,
+          "title": "Empire Strikes Back, The (1980)",
+          "genres": [
+            "Action",
+            "Adventure",
+            "Drama",
+            "Romance",
+            "Sci-Fi",
+            "War"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 165,
+          "rating": 5,
+          "timestamp": 874965518,
+          "title": "Jean de Florette (1986)",
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 156,
+          "rating": 4,
+          "timestamp": 874965556,
+          "title": "Reservoir Dogs (1992)",
+          "genres": [
+            "Crime",
+            "Thriller"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 166,
+          "rating": 5,
+          "timestamp": 874965677,
+          "title": "Manon of the Spring (Manon des sources) (1986)",
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 126,
+          "rating": 2,
+          "timestamp": 875071713,
+          "title": "Spitfire Grill, The (1996)",
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 245,
+          "rating": 2,
+          "timestamp": 875071713,
+          "title": "Devil's Own, The (1997)",
+          "genres": [
+            "Action",
+            "Drama",
+            "Thriller",
+            "War"
+          ]
+        },
+        {
+          "userId": 1,
+          "movieId": 260,
+          "rating": 1,
+          "timestamp": 875071713,
+          "title": "Event Horizon (1997)",
+          "genres": [
+            "Action",
+            "Mystery",
+            "Sci-Fi",
+            "Thriller"
+          ]
+        }
+      ]
+    },
+    {
+      "userId": 2,
+      "node": 1,
+      "trainingRatings": 49,
+      "positiveTrainingRatings": 32,
+      "positiveGenreCounts": {
+        "Drama": 18,
+        "Romance": 11,
+        "War": 2,
+        "Comedy": 11,
+        "Crime": 5,
+        "Film-Noir": 1,
+        "Animation": 1,
+        "Children's": 1,
+        "Action": 5,
+        "Adventure": 2,
+        "Sci-Fi": 2,
+        "Thriller": 3
+      },
+      "eligibleRelevantTestCount": 2,
+      "eligibleRelevantTestIds": [
+        304,
+        316
+      ],
+      "examples": [
+        {
+          "userId": 2,
+          "movieId": 286,
+          "rating": 4,
+          "timestamp": 888549960,
+          "title": "English Patient, The (1996)",
+          "genres": [
+            "Drama",
+            "Romance",
+            "War"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 301,
+          "rating": 4,
+          "timestamp": 888550631,
+          "title": "In & Out (1997)",
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 269,
+          "rating": 4,
+          "timestamp": 888550774,
+          "title": "Full Monty, The (1997)",
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 292,
+          "rating": 4,
+          "timestamp": 888550774,
+          "title": "Rosewood (1997)",
+          "genres": [
+            "Drama"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 299,
+          "rating": 4,
+          "timestamp": 888550774,
+          "title": "Hoodlum (1997)",
+          "genres": [
+            "Crime",
+            "Drama",
+            "Film-Noir"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 315,
+          "rating": 1,
+          "timestamp": 888550774,
+          "title": "Apt Pupil (1998)",
+          "genres": [
+            "Drama",
+            "Thriller"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 294,
+          "rating": 1,
+          "timestamp": 888551648,
+          "title": "Liar Liar (1997)",
+          "genres": [
+            "Comedy"
+          ]
+        },
+        {
+          "userId": 2,
+          "movieId": 10,
+          "rating": 2,
+          "timestamp": 888551853,
+          "title": "Richard III (1995)",
+          "genres": [
+            "Drama",
+            "War"
+          ]
+        }
+      ]
+    }
+  ],
+  "overlap": {
+    "popularity": {
+      "commonMovieIds": [
+        318
+      ],
+      "count": 1
+    },
+    "pagerank": {
+      "commonMovieIds": [
+        222
+      ],
+      "count": 1
+    },
+    "ppr": {
+      "commonMovieIds": [
+        475
+      ],
+      "count": 1
+    },
+    "mf": {
+      "commonMovieIds": [
+        5,
+        6
+      ],
+      "count": 2
+    }
+  },
+  "controlledOverlap": {
+    "seedVersusBaseline": [],
+    "alphaVersusBaseline": [
+      100,
+      258,
+      286,
+      318,
+      357,
+      483,
+      222
+    ]
+  },
+  "controlled": [
+    {
+      "setting": "baseline_A_085",
+      "method": "ppr",
+      "userId": 1,
+      "node": 0,
+      "alpha": 0.85,
+      "meanPopularity": 245.5,
+      "zeroScores": 0,
+      "propagation": {
+        "iterations": 91,
+        "residual": 9.001105354400352e-07,
+        "converged": true,
+        "probabilitySum": 1.0000003979703251,
+        "minProbability": 0,
+        "stationaryL1": 7.894204762149767e-07,
+        "seedNode": 0,
+        "rawUserAtSeed": 1,
+        "effectiveAlpha": 0.85
+      }
+    },
+    {
+      "setting": "seed_only_B_085",
+      "method": "ppr",
+      "userId": 2,
+      "node": 1,
+      "alpha": 0.85,
+      "meanPopularity": 254.9,
+      "zeroScores": 0,
+      "propagation": {
+        "iterations": 89,
+        "residual": 9.03307409316767e-07,
+        "converged": true,
+        "probabilitySum": 1.0000001514003998,
+        "minProbability": 0,
+        "stationaryL1": 7.788419336054689e-07,
+        "seedNode": 1,
+        "rawUserAtSeed": 2,
+        "effectiveAlpha": 0.85
+      }
+    },
+    {
+      "setting": "alpha_only_A_050",
+      "method": "ppr",
+      "userId": 1,
+      "node": 0,
+      "alpha": 0.5,
+      "meanPopularity": 228.4,
+      "zeroScores": 0,
+      "propagation": {
+        "iterations": 22,
+        "residual": 5.181345841265284e-07,
+        "converged": true,
+        "probabilitySum": 0.9999999817174512,
+        "minProbability": 0,
+        "stationaryL1": 3.0242775981944954e-07,
+        "seedNode": 0,
+        "rawUserAtSeed": 1,
+        "effectiveAlpha": 0.5
+      }
+    }
+  ],
+  "lists": [
+    {
+      "method": "popularity",
+      "userId": 1,
+      "meanPopularity": 246.8,
+      "movieIds": [
+        100,
+        258,
+        286,
+        300,
+        288,
+        318,
+        313,
+        302,
+        357,
+        483
+      ]
+    },
+    {
+      "method": "popularity",
+      "userId": 2,
+      "meanPopularity": 262.1,
+      "movieIds": [
+        181,
+        174,
+        98,
+        56,
+        172,
+        7,
+        79,
+        64,
+        318,
+        173
+      ]
+    },
+    {
+      "method": "pagerank",
+      "userId": 1,
+      "meanPopularity": 239.4,
+      "movieIds": [
+        258,
+        286,
+        100,
+        313,
+        300,
+        288,
+        302,
+        294,
+        275,
+        222
+      ]
+    },
+    {
+      "method": "pagerank",
+      "userId": 2,
+      "meanPopularity": 247.4,
+      "movieIds": [
+        181,
+        174,
+        98,
+        7,
+        56,
+        172,
+        117,
+        121,
+        268,
+        222
+      ]
+    },
+    {
+      "method": "ppr",
+      "userId": 1,
+      "meanPopularity": 228.4,
+      "movieIds": [
+        100,
+        258,
+        286,
+        318,
+        357,
+        483,
+        222,
+        475,
+        275,
+        423
+      ]
+    },
+    {
+      "method": "ppr",
+      "userId": 2,
+      "meanPopularity": 226.7,
+      "movieIds": [
+        181,
+        9,
+        7,
+        117,
+        98,
+        121,
+        174,
+        268,
+        475,
+        15
+      ]
+    },
+    {
+      "method": "mf",
+      "userId": 1,
+      "meanPopularity": 72.2,
+      "movieIds": [
+        5,
+        6,
+        18,
+        20,
+        32,
+        74,
+        100,
+        102,
+        111,
+        129
+      ]
+    },
+    {
+      "method": "mf",
+      "userId": 2,
+      "meanPopularity": 111.4,
+      "movieIds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ]
+    }
+  ]
+}

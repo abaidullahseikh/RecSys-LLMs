@@ -1,0 +1,11 @@
+{
+  "epoch": 4,
+  "trainRMSE": 0.8384347496030257,
+  "valRMSE": 1.0752459799100027,
+  "at": "2026-10-29T06:04:10.082Z",
+  "fingerprint": {
+    "users": "0e77b1749414f6edcc1dfe3b62f7fdc59ea10124b346d817b0cfbe168ef4225e",
+    "movies": "1be010452b57066c5211653a86ecf7d3761fd6beb916ba6120f9e67eb3bcfe07",
+    "globalMean": 3.5806026199776437
+  }
+}

@@ -1,0 +1,81 @@
+user_id,method,model_label,alpha,selected_mf_epoch,rank,movie_id,title,genres,score,score_definition,training_popularity,mean_list_popularity,split,evidence_origin
+1,popularity,Popularity,,,1,100,Fargo (1996),Crime;Drama;Thriller,377,training positive-user count,377,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,2,258,Contact (1997),Drama;Sci-Fi,307,training positive-user count,307,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,3,286,"English Patient, The (1996)",Drama;Romance;War,279,training positive-user count,279,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,4,300,Air Force One (1997),Action;Thriller,235,training positive-user count,235,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,5,288,Scream (1996),Horror;Thriller,226,training positive-user count,226,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,6,318,Schindler's List (1993),Drama;War,224,training positive-user count,224,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,7,313,Titanic (1997),Action;Drama;Romance,219,training positive-user count,219,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,8,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,202,training positive-user count,202,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,9,357,One Flew Over the Cuckoo's Nest (1975),Drama,202,training positive-user count,202,246.8,test,reused evidence/bundle.json
+1,popularity,Popularity,,,10,483,Casablanca (1942),Drama;Romance;War,197,training positive-user count,197,246.8,test,reused evidence/bundle.json
+2,popularity,Popularity,,,1,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,339,training positive-user count,339,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,2,174,Raiders of the Lost Ark (1981),Action;Adventure,312,training positive-user count,312,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,3,98,"Silence of the Lambs, The (1991)",Drama;Thriller,308,training positive-user count,308,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,4,56,Pulp Fiction (1994),Crime;Drama,263,training positive-user count,263,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,5,172,"Empire Strikes Back, The (1980)",Action;Adventure;Drama;Romance;Sci-Fi;War,261,training positive-user count,261,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,6,7,Twelve Monkeys (1995),Drama;Sci-Fi,234,training positive-user count,234,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,7,79,"Fugitive, The (1993)",Action;Thriller,230,training positive-user count,230,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,8,64,"Shawshank Redemption, The (1994)",Drama,228,training positive-user count,228,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,9,318,Schindler's List (1993),Drama;War,224,training positive-user count,224,262.1,test,reused evidence/bundle.json
+2,popularity,Popularity,,,10,173,"Princess Bride, The (1987)",Action;Adventure;Comedy;Romance,222,training positive-user count,222,262.1,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,1,258,Contact (1997),Drama;Sci-Fi,0.0023751864209771156,graph-walk probability,307,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,2,286,"English Patient, The (1996)",Drama;Romance;War,0.002291253302246332,graph-walk probability,279,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,3,100,Fargo (1996),Crime;Drama;Thriller,0.002271695528179407,graph-walk probability,377,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,4,313,Titanic (1997),Action;Drama;Romance,0.002063426189124584,graph-walk probability,219,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,5,300,Air Force One (1997),Action;Thriller,0.002003419678658247,graph-walk probability,235,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,6,288,Scream (1996),Horror;Thriller,0.0018683734815567732,graph-walk probability,226,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,7,302,L.A. Confidential (1997),Crime;Film-Noir;Mystery;Thriller,0.0017981338314712048,graph-walk probability,202,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,8,294,Liar Liar (1997),Comedy,0.0014883466064929962,graph-walk probability,182,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,9,275,Sense and Sensibility (1995),Drama;Romance,0.0012158651370555162,graph-walk probability,178,239.4,test,reused evidence/bundle.json
+1,pagerank,Global PageRank,0.5,,10,222,Star Trek: First Contact (1996),Action;Adventure;Sci-Fi,0.0011928168823942542,graph-walk probability,189,239.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,1,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,0.0019889404065907,graph-walk probability,339,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,2,174,Raiders of the Lost Ark (1981),Action;Adventure,0.0015527261421084404,graph-walk probability,312,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,3,98,"Silence of the Lambs, The (1991)",Drama;Thriller,0.0015255436301231384,graph-walk probability,308,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,4,7,Twelve Monkeys (1995),Drama;Sci-Fi,0.0013737748377025127,graph-walk probability,234,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,5,56,Pulp Fiction (1994),Crime;Drama,0.0013726186007261276,graph-walk probability,263,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,6,172,"Empire Strikes Back, The (1980)",Action;Adventure;Drama;Romance;Sci-Fi;War,0.0013182985130697489,graph-walk probability,261,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,7,117,"Rock, The (1996)",Action;Adventure;Thriller,0.0013080037897452712,graph-walk probability,215,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,8,121,Independence Day (ID4) (1996),Action;Sci-Fi;War,0.0012972892727702856,graph-walk probability,207,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,9,268,Chasing Amy (1997),Drama;Romance,0.0012656085891649127,graph-walk probability,146,247.4,test,reused evidence/bundle.json
+2,pagerank,Global PageRank,0.5,,10,222,Star Trek: First Contact (1996),Action;Adventure;Sci-Fi,0.0011928168823942542,graph-walk probability,189,247.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,1,100,Fargo (1996),Crime;Drama;Thriller,0.0006855191895738244,graph-walk probability,377,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,2,258,Contact (1997),Drama;Sci-Fi,0.0004398658056743443,graph-walk probability,307,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,3,286,"English Patient, The (1996)",Drama;Romance;War,0.00043101841583848,graph-walk probability,279,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,4,318,Schindler's List (1993),Drama;War,0.0004038166953250766,graph-walk probability,224,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,5,357,One Flew Over the Cuckoo's Nest (1975),Drama,0.00037716623046435416,graph-walk probability,202,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,6,483,Casablanca (1942),Drama;Romance;War,0.00035968932206742465,graph-walk probability,197,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,7,222,Star Trek: First Contact (1996),Action;Adventure;Sci-Fi,0.00033278539194725454,graph-walk probability,189,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,8,475,Trainspotting (1996),Drama,0.00032809015829116106,graph-walk probability,164,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,9,275,Sense and Sensibility (1995),Drama;Romance,0.00032018491765484214,graph-walk probability,178,228.4,test,reused evidence/bundle.json
+1,ppr,Personalized PageRank,0.5,,10,423,E.T. the Extra-Terrestrial (1982),Children's;Drama;Fantasy;Sci-Fi,0.00030566827626898885,graph-walk probability,167,228.4,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,1,181,Return of the Jedi (1983),Action;Adventure;Romance;Sci-Fi;War,0.0006973391282372177,graph-walk probability,339,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,2,9,Dead Man Walking (1995),Drama,0.0004976635682396591,graph-walk probability,182,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,3,7,Twelve Monkeys (1995),Drama;Sci-Fi,0.00047437407192774117,graph-walk probability,234,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,4,117,"Rock, The (1996)",Action;Adventure;Thriller,0.0004563616821542382,graph-walk probability,215,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,5,98,"Silence of the Lambs, The (1991)",Drama;Thriller,0.00044651018106378615,graph-walk probability,308,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,6,121,Independence Day (ID4) (1996),Action;Sci-Fi;War,0.00043071250547654927,graph-walk probability,207,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,7,174,Raiders of the Lost Ark (1981),Action;Adventure,0.00040285097202286124,graph-walk probability,312,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,8,268,Chasing Amy (1997),Drama;Romance,0.00040181103395298123,graph-walk probability,146,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,9,475,Trainspotting (1996),Drama,0.00040160532807931304,graph-walk probability,164,226.7,test,reused evidence/bundle.json
+2,ppr,Personalized PageRank,0.5,,10,15,Mr. Holland's Opus (1995),Drama,0.0004009184194728732,graph-walk probability,160,226.7,test,reused evidence/bundle.json
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,1,1282,"Grass Harp, The (1995)",Drama,5.812113285064697,raw mean-plus-dot rating-scale ranking score (unclipped),3,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,2,408,"Close Shave, A (1995)",Animation;Comedy;Thriller,5.617801666259766,raw mean-plus-dot rating-scale ranking score (unclipped),85,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,3,647,Ran (1985),Drama;War,5.568919658660889,raw mean-plus-dot rating-scale ranking score (unclipped),51,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,4,1529,Underground (1995),War,5.541051864624023,raw mean-plus-dot rating-scale ranking score (unclipped),1,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,5,285,Secrets & Lies (1996),Drama,5.491750717163086,raw mean-plus-dot rating-scale ranking score (unclipped),121,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,6,1450,Golden Earrings (1947),Adventure;Romance,5.42120361328125,raw mean-plus-dot rating-scale ranking score (unclipped),1,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,7,524,"Great Dictator, The (1940)",Comedy,5.40630578994751,raw mean-plus-dot rating-scale ranking score (unclipped),30,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,8,909,Dangerous Beauty (1998),Drama,5.347934722900391,raw mean-plus-dot rating-scale ranking score (unclipped),2,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,9,511,Lawrence of Arabia (1962),Adventure;War,5.295223712921143,raw mean-plus-dot rating-scale ranking score (unclipped),134,43,test,new reproduction
+1,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,10,1466,Margaret's Museum (1995),Drama,5.27718448638916,raw mean-plus-dot rating-scale ranking score (unclipped),2,43,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,1,958,To Live (Huozhe) (1994),Drama,5.169346332550049,raw mean-plus-dot rating-scale ranking score (unclipped),6,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,2,169,"Wrong Trousers, The (1993)",Animation;Comedy,4.981135845184326,raw mean-plus-dot rating-scale ranking score (unclipped),90,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,3,557,Farinelli: il castrato (1994),Drama;Musical,4.968425273895264,raw mean-plus-dot rating-scale ranking score (unclipped),3,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,4,1193,Before the Rain (Pred dozhdot) (1994),Drama,4.929168224334717,raw mean-plus-dot rating-scale ranking score (unclipped),7,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,5,1449,Pather Panchali (1955),Drama,4.926537036895752,raw mean-plus-dot rating-scale ranking score (unclipped),7,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,6,693,Casino (1995),Drama,4.851914405822754,raw mean-plus-dot rating-scale ranking score (unclipped),43,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,7,208,Young Frankenstein (1974),Comedy;Horror,4.847277641296387,raw mean-plus-dot rating-scale ranking score (unclipped),124,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,8,488,Sunset Blvd. (1950),Film-Noir,4.834878921508789,raw mean-plus-dot rating-scale ranking score (unclipped),43,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,9,654,Chinatown (1974),Film-Noir;Mystery;Thriller,4.825249671936035,raw mean-plus-dot rating-scale ranking score (unclipped),97,49.9,test,new reproduction
+2,mf_hw5_reproduction,Corrected HW5 MF reproduction,,19,10,213,"Room with a View, A (1986)",Drama;Romance,4.7925944328308105,raw mean-plus-dot rating-scale ranking score (unclipped),79,49.9,test,new reproduction

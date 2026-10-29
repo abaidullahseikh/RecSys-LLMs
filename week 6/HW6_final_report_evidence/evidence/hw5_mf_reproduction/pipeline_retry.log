@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 199, in <module>
+    elif args.action=='run':run()
+                            ~~~^^
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 161, in run
+    result=evaluate('''(async()=>{
+      for(let i=0;i<120;i++){if(typeof HW6_STATE!=='undefined')break;await new Promise(r=>setTimeout(r,500));}
+    ...<16 lines>...
+      return HW5_REPRO_JOB;
+    })()''')
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 114, in evaluate
+    if 'error' in response or 'exceptionDetails' in response.get('result',{}):raise RuntimeError(json.dumps(response))
+                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: {"id": 1, "result": {"result": {"type": "object", "value": {}}, "exceptionDetails": {"exceptionId": 1, "text": "Uncaught (in promise) TypeError: window.onload is not a function", "lineNumber": 0, "columnNumber": 0, "exception": {"type": "object", "subtype": "error", "className": "TypeError", "description": "TypeError: window.onload is not a function\n    at <anonymous>:7:22", "objectId": "-6295399171649157679.1.1"}}}}

@@ -1,0 +1,13 @@
+{"stage": "starting", "done": false, "error": null}
+{"stage": "starting", "done": true, "error": "Error: Dataset not loaded\n    at assert (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:6:58)\n    at Object.run (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:184:5)\n    at <anonymous>:6:53"}
+Traceback (most recent call last):
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 189, in <module>
+    elif args.action=='run':run()
+                            ~~~^^
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 177, in run
+    if status['error']:raise RuntimeError(status['error'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Dataset not loaded
+    at assert (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:6:58)
+    at Object.run (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js:184:5)
+    at <anonymous>:6:53

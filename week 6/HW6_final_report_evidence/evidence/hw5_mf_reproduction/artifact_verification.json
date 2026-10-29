@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETE",
+  "independent_saved_list_checks": 1707,
+  "max_saved_score_error_against_double_precision_factors": 8.202704719906251e-07,
+  "model_hashes_verified": true,
+  "source_parity_verified": true,
+  "shared_cohort_ids_identical": true,
+  "shared_test_users": 861,
+  "results_rows": 2,
+  "four_method_rows": 4,
+  "new_mf_recommendation_rows": 20,
+  "combined_two_user_rows": 80,
+  "csv_roundtrip_passed": true,
+  "original_hw6_tests": {
+    "passed": 12,
+    "failed": 0,
+    "pending": 0
+  },
+  "existing_files_checked": 55,
+  "changed_existing_files": [],
+  "hw5_unchanged": true,
+  "original_hw6_sources_and_evidence_unchanged": true,
+  "both_original_session_exports_unchanged": true
+}

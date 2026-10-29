@@ -1,0 +1,15 @@
+{"stage": "starting", "done": false, "error": null}
+{"stage": "verification", "done": true, "error": "Error: Adam/objective mismatch: 0.000042478061505479836\n    at assert (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:6:58)\n    at http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:119:7\n    at async check (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:19:23)\n    at async prechecks (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:93:5)\n    at async Object.run (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:204:15)"}
+Traceback (most recent call last):
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 203, in <module>
+    elif args.action=='run':run()
+                            ~~~^^
+  File "/home/dastan/Recommender Systems/Week 6/run_hw5_mf_reproduction.py", line 191, in run
+    if status['error']:raise RuntimeError(status['error'])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Error: Adam/objective mismatch: 0.000042478061505479836
+    at assert (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:6:58)
+    at http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:119:7
+    at async check (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:19:23)
+    at async prechecks (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:93:5)
+    at async Object.run (http://127.0.0.1:8767/hw5_mf_reproduction_experiment.js?v=1793253472441:204:15)

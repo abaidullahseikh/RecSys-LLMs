@@ -1,0 +1,22 @@
+{
+  "required_files_present": 45,
+  "four_method_test_rows": 4,
+  "common_test_cohort_size": 861,
+  "candidate_pool_size": 1611,
+  "test_cohort_hashes_identical": true,
+  "corrected_mf_selected_epoch": 19,
+  "staged_results_csv_rows": 4,
+  "staged_recommendations_rows": 110,
+  "staged_final_selected_rows": 80,
+  "staged_corrected_mf_rows": 20,
+  "ppr_controlled_demo_rows": 30,
+  "fixed_user_ids": [
+    1,
+    2
+  ],
+  "movie_metadata_and_popularity_nonempty": true,
+  "report_pdf_present": false,
+  "week6_ai_session_export_present": false,
+  "original_exports_preserved": true,
+  "no_model_retraining": true
+}
