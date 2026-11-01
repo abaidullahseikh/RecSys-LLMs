@@ -1,0 +1,12 @@
+.venv/
+.venv-lightgbm/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/*
+!data/README.md
+results/*.sqlite
+results/*.sqlite-*
+evidence/*session*.json
+.env
+kaggle.json

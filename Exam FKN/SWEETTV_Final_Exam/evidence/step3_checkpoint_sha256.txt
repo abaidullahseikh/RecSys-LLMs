@@ -1,0 +1,9 @@
+00e0b596a1c53327ce4e35dc165dfc7605b982bbbef3f7eb48f5ed6efc344ac0  step3_opencode_session.json
+
+Native unmodified OpenCode export of session ses_e7371ba5affeMuqWtLibI0NrzK.
+Live-session checkpoint after the Step 3 report; not the eventual full-project export.
+This checkpoint predates this checksum note and the closing response.
+
+Earlier exports rechecked after creating the new checkpoint, without modification:
+797d19d6f36a03402f1bfeb69a40b7329c7c69b63bc540105fae2607943a7c6f  step1_opencode_session.json
+eb324cdbb5809ff709985d15a6386738873eee15a3a2da1cd9f8512c82dc0fb2  step2_opencode_session.json

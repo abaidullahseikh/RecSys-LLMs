@@ -1,0 +1,19 @@
+# Large datasets and generated data
+*.csv
+*.csv.gz
+*.npz
+
+# Generated experiment results
+SWEETTV_Final_Exam/results/
+
+# Large session files
+seikh_abaidullah_exam_session.json
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,16 @@
+{
+  "description": "Hand-specified integer-second fixtures; expected rows are [user,channel,broadcast_start,broadcast_end,item,seconds,first,last].",
+  "cases": [
+    {"name": "channel_and_exact_overlap", "window": [0, 1000], "views": [["18440717181607000261", 1, 30, 180]], "airings": [[1, 0, 100, 11], [2, 0, 200, 22]], "expected": [["18440717181607000261", 1, 0, 100, 11, 70, 30, 100]]},
+    {"name": "touching_boundaries", "window": [0, 1000], "views": [["u", 1, 100, 200]], "airings": [[1, 0, 100, 11], [1, 200, 300, 22]], "expected": []},
+    {"name": "exact_duplicate_views", "window": [0, 1000], "views": [["u", 1, 10, 170], ["u", 1, 10, 170]], "airings": [[1, 0, 300, 11]], "expected": [["u", 1, 0, 300, 11, 160, 10, 170]]},
+    {"name": "overlapping_fragments", "window": [0, 1000], "views": [["u", 1, 10, 100], ["u", 1, 50, 180], ["u", 1, 60, 70]], "airings": [[1, 0, 300, 11]], "expected": [["u", 1, 0, 300, 11, 170, 10, 180]]},
+    {"name": "disjoint_fragments_one_broadcast", "window": [0, 1000], "views": [["u", 1, 0, 70], ["u", 1, 150, 220]], "airings": [[1, 0, 300, 11]], "expected": [["u", 1, 0, 300, 11, 140, 0, 220]]},
+    {"name": "one_view_multiple_programs", "window": [0, 1000], "views": [["u", 1, 50, 250]], "airings": [[1, 0, 100, 11], [1, 100, 200, 22], [1, 200, 300, 33]], "expected": [["u", 1, 0, 100, 11, 50, 50, 100], ["u", 1, 100, 200, 22, 100, 100, 200], ["u", 1, 200, 300, 33, 50, 200, 250]]},
+    {"name": "missing_program_ids", "window": [0, 1000], "views": [["u", 1, 0, 300]], "airings": [[1, 0, 100, 0], [1, 100, 200, 11], [1, 200, 300, 0]], "expected": [["u", 1, 100, 200, 11, 100, 100, 200]]},
+    {"name": "cold_no_matching_channel", "window": [0, 1000], "views": [["cold", 9, 0, 200]], "airings": [[1, 0, 300, 11]], "expected": []},
+    {"name": "train_boundary_clip", "window": [0, 150], "views": [["u", 1, 70, 230]], "airings": [[1, 50, 300, 11]], "expected": [["u", 1, 50, 300, 11, 80, 70, 150]]},
+    {"name": "validation_boundary_clip", "window": [150, 300], "views": [["u", 1, 70, 230]], "airings": [[1, 50, 300, 11]], "expected": [["u", 1, 50, 300, 11, 80, 150, 230]]},
+    {"name": "exact_string_ids", "window": [0, 1000], "views": [["000123", 1, 0, 120], ["123", 1, 0, 120], ["18446744073709551615", 1, 0, 120]], "airings": [[1, 0, 300, 11]], "expected": [["000123", 1, 0, 300, 11, 120, 0, 120], ["123", 1, 0, 300, 11, 120, 0, 120], ["18446744073709551615", 1, 0, 300, 11, 120, 0, 120]]}
+  ]
+}

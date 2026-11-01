@@ -1,0 +1,11 @@
+09f339985be3f10e221552e37054f4d5ef45f12f0fa890b818d73128be819c81  step4_opencode_session.json
+
+Native, unmodified live-session checkpoint for Step 4. This is not a reconstructed
+transcript or the eventual final full-project export. It predates this note and
+the closing response.
+
+Earlier session exports were rehashed when this new checkpoint was created and
+remain unchanged:
+797d19d6f36a03402f1bfeb69a40b7329c7c69b63bc540105fae2607943a7c6f  step1_opencode_session.json
+eb324cdbb5809ff709985d15a6386738873eee15a3a2da1cd9f8512c82dc0fb2  step2_opencode_session.json
+00e0b596a1c53327ce4e35dc165dfc7605b982bbbef3f7eb48f5ed6efc344ac0  step3_opencode_session.json

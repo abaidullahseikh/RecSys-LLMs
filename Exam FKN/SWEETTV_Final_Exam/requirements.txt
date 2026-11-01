@@ -1,0 +1,5 @@
+# Steps 1 and 2: Python standard library only; system IANA timezone database required.
+# Executed with Python 3.14.4; unittest supplies the preprocessing tests.
+# No third-party packages were installed for these stages.
+# A later modeling stage should install and pin actually tested numerical packages
+# in an isolated environment before adding recommendation implementations.

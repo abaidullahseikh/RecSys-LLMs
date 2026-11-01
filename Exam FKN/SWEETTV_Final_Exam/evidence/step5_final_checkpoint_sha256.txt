@@ -1,0 +1,5 @@
+f6d41e365549992ede0b5c6e5d81f4b60fc33d5bb1645deb8d1381b6bfd50c1e  step5_final_checkpoint.json
+
+Native unmodified OpenCode checkpoint after final Step 5 verification and reporting.
+The earlier step5_opencode_session.json and Step 1–4 exports were left unchanged.
+This checkpoint is not a substitute for the eventual full-project final export.
