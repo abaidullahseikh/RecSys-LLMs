@@ -1,19 +1,23 @@
-# Large datasets and generated data
-*.csv
-*.csv.gz
-*.npz
-
-# Generated experiment results
-SWEETTV_Final_Exam/results/
-
-# Large session files
-seikh_abaidullah_exam_session.json
-
-# Python temporary files
+# Python cache
 __pycache__/
 *.pyc
+.pytest_cache/
+
+# Virtual environments
 .venv/
 venv/
+
+# Credentials and secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+
+# Editor backups
+*.save
+*~
+
+# System files
+.DS_Store
+Thumbs.db
